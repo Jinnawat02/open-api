@@ -33,7 +33,7 @@ jobs:
 
     - name: Build, tag, and push Docker image
       env:
-        ECR_URI: "778529894665.dkr.ecr.us-east-1.amazonaws.com/web-app"
+        ECR_URI: "118337146884.dkr.ecr.us-east-1.amazonaws.com/web-app"
         IMAGE_TAG: latest,${{ github.sha }}
       run: |
         yarn --frozen-lockfile
